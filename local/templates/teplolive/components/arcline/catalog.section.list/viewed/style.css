@@ -1,0 +1,28 @@
+.viewed-catalog {
+    width: 960px;
+    /*height: 310px;*/
+    margin: 0 0 0 0;
+}
+.viewed-item {
+  width: 135px;
+  height: 150px;
+  float: left;
+  margin-bottom: 10px;
+}
+.viewed-item img {
+  margin-bottom: 5px;
+}
+.name-wrap {
+    width: 110px;
+}
+.viewed-item-name {
+  margin: 15px 0 0 0;
+  font-size: 12px;
+  font-family: Arial,Helvetica,Garuda,sans-serif;
+  color: #393185;
+} 
+.img-wrap {
+  height: 105px;
+  width: 100px;
+  text-align: center;
+}

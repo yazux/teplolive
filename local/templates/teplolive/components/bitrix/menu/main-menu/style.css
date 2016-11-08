@@ -1,0 +1,42 @@
+/**Top menu**/
+#main-menu,#main-menu ul
+{
+	margin:0; padding:0;
+	min-height:27px;
+	width:100%;
+	list-style:none;
+	font-size:14px;
+  color: #fff;
+	float:left;
+}
+
+
+/*Links*/
+#main-menu a
+{
+  font-family: MyriadPro;
+  font-size:14px;
+  color: #fff;
+  display:block;
+  padding:12px 20px 15px 20px;
+  text-decoration:none;
+  text-align:center;
+  text-shadow: 0 -1px 1px #000;
+  line-height: 18px;
+}
+
+#main-menu li 
+{
+	float:left;
+}
+
+/*Root menu selected*/
+#main-menu li a.root-item-selected
+{
+  color: #aea6fb;	
+}
+
+div.menu-clear-left
+{
+	clear:left;
+}

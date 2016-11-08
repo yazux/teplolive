@@ -1,0 +1,47 @@
+.catalog-item {
+  width: 205px;
+  padding-left: 20px;
+  float: left;
+  border-right: 1px solid #ebebeb;
+}
+.catalog-item2 {
+  width: 205px;
+  padding-left: 20px;
+  float: left;
+}
+.catalog-item img {
+  margin-bottom: 5px;
+}
+
+.catalog-item-name {
+  display: block;
+  width: 190px; 
+  margin: 15px 0;
+  font-size: 12px;
+  font-family: Arial,Helvetica,Garuda,sans-serif;
+  color: #393185;
+} 
+.rating {
+  margin-top: 5px;
+  width: 90px;
+  height: 15px;
+  border: 1px solid red;
+}
+.otrub {
+  font-size: 12px;
+  color: #414141;
+  font-family: Arial,Helvetica,Garuda,sans-serif;
+}
+.catalog-price {
+  font-size: 14px;
+  color: #414141;
+  font-family: Arial,Helvetica,Garuda,sans-serif;
+}
+.price-push {
+  margin-bottom: 15px;
+}
+.line {
+  size:1px;
+  border-color: #ebebeb;
+  margin: 32px 0;
+}

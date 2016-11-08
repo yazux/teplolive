@@ -1,0 +1,13 @@
+$(document).ready(function(){
+    $(".more").click(function(){
+		if($(this).hasClass("open")){
+			$(this).removeClass("open");
+			$(".invisible-part").slideUp("fast");
+			$(this).text("Еще");
+		}else{
+			$(this).addClass("open");
+			$(".invisible-part").slideDown("fast");
+			$(this).text("Скрыть");
+		}
+	});
+});

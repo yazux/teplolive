@@ -1,0 +1,251 @@
+@font-face {
+    font-family: "Myriad Pro";
+    src: url("fonts/MyriadPro-Regular.eot");
+    src: url("fonts/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"),
+         url("fonts/MyriadPro-Regular.woff") format("woff"),
+         url("fonts/MyriadPro-Regular.ttf") format("truetype");
+         url("fonts/MyriadPro-Regular.svg#JournalRegular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "MyriadProLight";
+    src: url("fonts/myriadpro-light-cyr-webfont.eot");
+    src: url("fonts/myriadpro-light-cyr-webfont.eot?#iefix") format("embedded-opentype"),
+         url("fonts/myriadpro-light-cyr-webfont.woff") format("woff"),
+         url("fonts/myriadpro-light-cyr-webfont.ttf") format("truetype");
+         url("fonts/myriadpro-light-cyr-webfont.svg#JournalRegular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url('fonts/myriad_regular_v2/myriadpro-regular.eot');
+    src: url('fonts/myriad_regular_v2/myriadpro-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/myriad_regular_v2/myriadpro-regular.woff') format('woff'),
+         url('fonts/myriad_regular_v2/myriadpro-regular.ttf') format('truetype'),
+         url('fonts/myriad_regular_v2/myriadpro-regular.svg#myriadpro-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rouble';
+    src: url('fonts/rouble/alsrubl-verdana-regular.eot');
+    src: url('fonts/rouble/alsrubl-verdana-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/rouble/alsrubl-verdana-regular.woff') format('woff'),
+         url('fonts/rouble/alsrubl-verdana-regular.ttf') format('truetype'),
+         url('fonts/rouble/alsrubl-verdana-regular.svg#alsrubl-verdana-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+span.rouble{font-family: "Rouble"}
+span.rouble1{font-family: "Rouble"; font-size:20px; line-height:normal;}
+span.rouble2{font-family: "Rouble"; font-size:14px; line-height:normal; color:#8b8b8b;}
+span.rouble3{font-family: "Rouble"; font-size:14px; line-height:normal; color:#000; font-weight: normal !important;}
+
+h1, h2, h3, h4, h5, h6 {
+margin: 0;
+padding: 0;
+font-weight: normal;
+color: #000;
+font-family: "MyriadProLight";
+}
+
+h1 {
+	font-size: 40px;
+	line-height: 1;
+	margin-bottom: 30px;
+}
+h2 {
+	font-size: 30px;
+	line-height: 1;
+	margin-bottom: 15px;
+}
+h3 {
+	font-size: 22px;
+	line-height: 1;
+	margin-bottom: 15px;
+}
+
+p {
+margin: 0 0 15px;
+padding: 0;
+font-size: 14px;
+line-height: 1.5;
+}
+
+a { color: #0095d6; }
+a:hover { text-decoration: none; }
+
+#contentblock_wrapper textarea,
+#contentblock_wrapper input[type="text"],
+#contentblock_wrapper input[type="password"],
+#contentblock_wrapper select
+{
+font-family: Arial;
+font-size: 14px;
+padding-left: 5px;
+background: -moz-linear-gradient(center top, #FFFFFF, #F5F5F5) repeat scroll 0 0 #FFFFFF;
+border-width: 1px;
+border-style: solid;
+border-color: #ABABAB #DDDDDD #DDDDDD #ABABAB;
+}
+
+#contentblock_wrapper input[type="text"],
+#contentblock_wrapper input[type="password"],
+#contentblock_wrapper select
+{
+height: 35px;
+}
+
+#contentblock_wrapper textarea {
+padding: 5px;
+}
+
+.green, .detail_present
+{
+ color: #669900;
+}
+.red
+{
+ color: #aa0100;
+}
+.grey{
+ color: #828181;
+}
+.blue, .detail_absent{
+ color: #0095d6;
+}
+
+.comment
+{
+ font-size: 11px;
+ color: #696969;
+}
+
+#contentblock_wrapper ol, .topbanner_item_wrapper_content ol {
+margin: 0 0 15px; padding: 0;;
+font-size: 14px;
+}
+
+#contentblock_wrapper ol li, .topbanner_item_wrapper_content ol li
+{
+line-height: 1.5;
+}
+
+#contentblock_wrapper .quoteblock{
+border-top: 1px dotted #000000;
+float: left;
+margin-bottom: 15px;
+}
+#contentblock_wrapper .quoteblock_wrapper{
+	background-color: #f4f5f6;	
+	padding: 20px;
+}
+#contentblock_wrapper .quoteblock h1,
+#contentblock_wrapper .quoteblock h2,
+#contentblock_wrapper .quoteblock h3,
+#contentblock_wrapper .quoteblock h4,
+#contentblock_wrapper .quoteblock h5,
+#contentblock_wrapper .quoteblock h6{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 15px;
+}
+
+
+#contentblock_wrapper ul, .topbanner_item_wrapper_content ul { list-style-type: none;  margin: 0 0 15px 0; padding: 0;}
+#contentblock_wrapper ul li:before, .topbanner_item_wrapper_content ul li:before { content:'\2014\a0'; }
+#contentblock_wrapper ul li, .topbanner_item_wrapper_content li
+{
+/*	behavior:expression( !this.before  ? this.before = this.innerHTML = '<span class="dash">— </span>' + this.innerHTML :'' );
+	text-indent:-1.35em;
+	line-height: 1.5;	
+*/	
+}
+
+#contentblock_wrapper .catalog_ajaxpages_filter ul {
+margin-bottom: 0;
+}
+
+#contentblock_wrapper ul ul, .topbanner_item_wrapper_content ul ul { padding:0 0 0 1.5em; margin: 0.6em 0}
+
+qqq#contentblock_wrapper p, .topbanner_item_wrapper_content p{
+	font-family: Arial;
+	font-size: 14px;
+	padding-bottom: 15px;
+	line-height: 1.$;
+}
+.leftpicture{
+float: left;
+padding-right: 70px;
+}
+.rightpicture{
+float: right;
+padding-left: 70px;
+}
+
+
+#contentblock_wrapper .trow1{
+	background-color: #f4f5f6;
+
+}
+#contentblock_wrapper table{
+	width: 100%;
+	border-collapse: collapse;
+margin-bottom: 15px;
+}
+#contentblock_wrapper table td{
+	padding: 10px 15px;
+	font-size: 14px;
+}
+#tabs_block #contentblock_wrapper table td {
+	font-size: 12px;
+}
+#contentblock_wrapper .compare-props td{
+	padding: 0;
+}
+#contentblock_wrapper table th{
+	padding: 10px 15px;
+	font-size: 14px;
+	color: #4b4b4b;
+	border-bottom: 1px solid #000;
+	text-align: center;
+}
+#contentblock_wrapper .tdprice{
+	text-align: right;
+}
+.commonbutton, .commonbutton_a{
+	background: url('images/common_button_bg.png') repeat-x;
+	height: 37px;
+	border-radius: 5px;
+	font-family: "MyriadProLight";
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: normal;
+	text-align: center;		
+	line-height: 37px;	
+	border: 0px;
+	padding: 0px 15px;	
+}
+.commonbutton_a, .commonbutton_a_orange {
+	display: block;
+	text-decoration: none;
+	float: left;
+	padding: 0px 15px;
+}
+
+.commonbutton_a_orange{
+	background: url('images/common_button_bg_orange.png') repeat-x !important;
+	height: 37px;
+	border-radius: 5px;
+	font-family: "MyriadProLight";
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: normal;
+	text-align: center;		
+	line-height: 37px;	
+	border: 0px;
+	padding: 0px 15px;	
+}

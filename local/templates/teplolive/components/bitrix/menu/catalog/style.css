@@ -1,0 +1,31 @@
+.cat-menu {
+  width: 245px;
+  list-style-type: none;
+  padding: 0 0 0 0;
+  margin: 0;
+}
+.cat-menu-title {
+  padding-left: 13px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #333333;
+  font-family: MyriadPro;  
+}
+.cat-menu li {
+  padding: 8px 13px;
+  width: 218px;
+  height: 16px;
+}
+.cat-menu li a {
+  text-decoration: underline;
+  font-size: 12px;
+  font-family: Arial,Helvetica,Garuda,sans-serif;
+  color: #393185;
+}
+.cat-menu li.selected {
+  background: url('images/cat-li-bg.jpg') no-repeat;
+} 
+.cat-menu li.selected a{
+  text-decoration: none;
+  color: #aea6fb;
+} 

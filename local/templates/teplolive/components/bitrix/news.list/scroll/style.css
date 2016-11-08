@@ -1,0 +1,71 @@
+#slider-x{
+width: 1280px;
+margin: 0 auto;
+margin-top: 50px;
+padding: 15px 0;
+position: relative;
+}
+.Vwidget{
+margin: 0;
+padding: 0;
+}
+.VjCarouselLite{
+padding: 0;
+}
+.VjCarouselLite li{
+overflow: hidden;
+float: none;
+display: block;
+padding: 0 240px 0 240px;
+width: 800px;
+height: 295px;
+}
+.VjCarouselLite li span {
+  font-family: MyriadPro;
+}
+.scroll-name{
+  font-size: 32px;
+  color: #393185;
+  font-family: MyriadPro;
+  margin: 0 0 40px 0;
+}
+.scroll-text {
+  font-size: 14px;
+  color: #464849;
+  font-family: MyriadPro;
+  margin-bottom: 20px;
+}
+.scroll-cross-price {
+  font-size: 25px;
+  color: #464849;
+  text-decoration: line-through;
+  margin-right: 7px;
+}
+.scroll-price {
+  font-size: 30px;
+  color: #464849;
+  margin-right: 7px;
+}
+.rur {
+  color: #464849;
+}
+.sc-discount {
+  color: #e31e24 !important;
+}
+.push {
+  height: 22px;
+}
+.scroll-button {
+  width: 86px;
+  background: #463ca3;
+  padding: 8px 7px;
+  display: inline-block;
+  color: #fefeff;
+  font-size: 14px;
+  font-family: MyriadPro;
+    text-decoration: none;
+}
+.VjCarouselLite li img{
+  margin-right: 30px;
+    margin-bottom: 30px;
+}

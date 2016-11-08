@@ -1,0 +1,90 @@
+div.registration-form input.bx-auth-input {
+    vertical-align:middle;
+    height: 26px;
+    width: 240px;
+    padding: 0 5px;
+    border: 1px solid #888;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+div.registration-form div.bx-auth-secure-icon {
+    background-image:url('images/sec.png');
+    background-repeat:no-repeat;
+    background-position:center;
+    width:19px;
+    height:18px;
+}
+div.registration-form div.bx-auth-secure-unlock {
+    background-image:url('images/sec-unlocked.png');
+}
+.captcha {
+    vertical-align:middle;
+    padding: 0 5px;
+    width: 113px;
+    height: 26px;
+    border: 1px solid #888 !important;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+div.registration-form table tr td {
+    padding: 10px 0;
+}
+.register-left-field {
+    padding-right: 20px !important;
+    text-align: right;
+}
+.starrequired {
+    color: red;
+}
+.registr-button {
+    height: 34px;
+    width: 136px;
+    background: url("images/registracia.png") no-repeat;
+    border: none;
+    font-family: MyriadPro;
+    font-size: 14px;
+    color: #fff;
+    text-shadow: 0 -2px 2px #2b208e;
+    cursor: pointer;
+}
+.registr-left-column {
+    float: left;
+    width: 460px;
+}
+.register-right-column {
+    float: left;
+    width:495px;
+    padding-top: 8px;
+    height: 10px;
+}
+.register-number {
+    float: left;
+    width:30px;
+    font-size: 30px;
+    font-family: MyriadPro;
+    color: #ebebeb;
+}
+.register-text {
+    width: 450px;
+    margin-bottom: 20px;
+    float: left;
+    font-size: 12px;
+    color: #888888;
+    font-family: Arial,Helvetica,Garuda,sans-serif;
+}
+.chetkaCheck {
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    cursor: pointer;
+    background: url("/images/checkbox1.png") no-repeat;
+}
+.chetkaCheck input {
+    display: none;
+}
+.pdng-rght {
+    padding-right: 15px !important;
+}

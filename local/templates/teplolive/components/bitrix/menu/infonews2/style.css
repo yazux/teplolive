@@ -1,0 +1,15 @@
+.infonews {
+  width: 235px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.infonews li {
+  margin-bottom: 14px;
+}
+.selected {
+padding-left: 13px;
+  background: url('images/lst.png') no-repeat;
+  background-position: 0 2px;
+  text-decoration: none;
+}

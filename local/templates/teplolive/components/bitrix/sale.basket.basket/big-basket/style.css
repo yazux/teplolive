@@ -1,0 +1,156 @@
+/*Table*/
+table.sale_basket_basket
+{
+	width: 940px;
+	border-collapse:collapse;
+	font-size:12px;
+    margin: 0 10px 0 0;
+}
+
+/*Table head*/
+table.sale_basket_basket th
+{
+  background-color: #ebebeb;
+  height: 26px;
+}
+
+/* Table cells and heads*/
+table.sale_basket_basket td
+{
+  border-bottom: 1px solid #ebebeb;
+  text-align: center;
+  height: 87px;
+}
+.del {
+  width: 42px;
+  color: red;
+}
+.num {
+  width: 36px;
+}
+.basket-item-image {
+  width:100px;
+}
+.articul {
+  width: 65px;
+}
+.weight {
+  width: 65px;
+}
+.basket-item-price {
+  width: 95px;
+}
+.basket-item-name {
+  font-size: 14px;
+}
+.koli4estvo {
+  width: 105px;
+}
+.cost {
+  width: 100px;
+}
+.quan {
+	width: 35px;
+	height: 18px;
+	float: left;
+	border: 1px solid #ececec;
+  text-align: center;
+}
+.plus, .minus {
+	cursor: pointer;
+	width: 14px;
+	height: 18px;
+	float: left; 
+}
+.minus {
+	background: url("images/minus.png") no-repeat 0 50% transparent;
+	margin:0 10px;
+}
+.plus {
+	background: url("images/plus.png") no-repeat 0 80% transparent;
+	margin-left: 10px;
+}
+.delete-basket-item {
+
+  width: 64px;
+  height: 34px;
+  background: url('images/udalenie.png') no-repeat;
+  border: none;
+  color: white;
+  font-size: 0;
+  font-family: MyriadPro;
+  text-shadow: 1px 1px #333333;
+  float: left;
+  line-height: 16px;
+  cursor: pointer;
+}
+.clear-check {
+  display: inline;
+  float: left;
+  margin: 10px 0 0 15px;
+  color: #2b208e;
+  border-bottom: 1px dashed #2b208e;
+  cursor: pointer;
+}
+.refresh-basket {
+  width: 90px;
+  height: 34px;
+  margin-right: 15px;
+  background: url('images/pereschet.png') no-repeat;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-family: MyriadPro;
+  text-shadow: 1px 1px #333333;
+  line-height: 16px;
+  cursor: pointer;
+}
+.basket-order {
+  width: 110px;
+  height: 34px;
+  background: url('images/oformlenie.png') no-repeat;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-family: MyriadPro;
+  text-shadow: 1px 1px #2b208e;
+  cursor: pointer;
+}
+.basket-bottom {
+  background-color: #ebebeb;
+  width: 940px;
+  height: 65px;
+  margin: 0 15px 0 0;
+  padding: 0 15px 0 15px;
+  font-size: 14px;
+  font-family: Arial,Helvetica,Garuda,sans-serif;  
+}
+.bot-fr-td {
+  width: 775px;
+}
+.total-cost {
+  color: red;
+}
+.continue {
+  width: 650px;
+}
+.nwprc {
+    white-space: nowrap;
+}
+.pirce {
+    text-align: right !important;
+    padding-right: 15px;
+}
+.chetkaCheck {
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    cursor: pointer;
+    background: url("/images/checkbox1.png") no-repeat;
+    float: left;
+    margin-top: 3px;
+    margin-left: 15px;
+}
+.chetkaCheck input {
+    display: none;
+}

@@ -1,0 +1,31 @@
+/*Table*/
+table.sale_personal_order_detail
+{
+	width:100%;
+	border-collapse:collapse;
+	font-size:12px;
+}
+
+/*Table head*/
+table.sale_personal_order_detail th
+{
+	background-color: #ebebeb;
+    height: 26px;
+    vertical-align: middle;
+    #text-align: left;
+    font-weight: normal;
+}
+
+/* Table cells and heads*/
+table.sale_personal_order_detail td
+{
+	padding: 3px 5px;
+	vertical-align:top;
+}
+
+.sale_personal_order_detail_no_border
+{
+	border: 0px;
+	padding: 3px;
+	vertical-align:top;
+}

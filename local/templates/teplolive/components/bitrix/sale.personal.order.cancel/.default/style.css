@@ -1,0 +1,10 @@
+.cancel-offer input[type='submit'] {
+    width: 110px;
+    height: 34px;
+    border: none;
+    background: url('images/canceloffer.png') no-repeat;
+    cursor: pointer;
+}
+.cancel-offer textarea {
+    resize: none;
+}

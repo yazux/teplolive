@@ -1,0 +1,78 @@
+/*dfgdf*/
+.ct-title {
+    margin: 0 0 15px 0;
+}
+.catalog-multilevel, .catalog-multilevel ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.catalog-multilevel, .catalog-multilevel>ul {
+    width: 245px;
+}
+.catalog-multilevel li ul, .catalog-multilevel ul li ul, .catalog-multilevel ul li ul li ul {
+    margin-left: 15px;
+}
+.catalog-multilevel ul li ul, .catalog-multilevel ul li ul li ul {
+      margin-left: 30px;
+  }
+.catalog-multilevel ul li {
+    width: 203px;
+}
+.catalog-multilevel ul li ul li {
+    width: 188px;
+}
+.catalog-multilevel li {
+    width: 218px;
+}
+.catalog-multilevel li>ul {
+    margin-top: 1px;
+}
+.catalog-multilevel li a {
+    text-decoration: underline;
+    font-size: 12px;
+    font-family: Arial,Helvetica,Garuda,sans-serif;
+    color: #393185;
+    display: block;
+    padding: 8px 13px;
+    min-height: 16px;
+    width: 100%;
+}
+.catalog-multilevel li.selected {
+   /* background: url('images/punct-bg.jpg') repeat-x;*/
+}
+.catalog-multilevel li.selected>a{
+    text-decoration: none;
+    color: #aea6fb;
+    background-color: #413b95;
+    display: block;
+    margin-right: 13px;
+    position: relative;
+}
+.hidden {
+    display: none;
+}
+.arrow1{
+    width: 13px;
+    height: 32px;
+    background: url('images/punct-end-bg.jpg') no-repeat;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+.arrow2{
+    width: 13px;
+    height: 46px;
+    background: url('images/punct-end-bg2.jpg') no-repeat;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+.arrow3{
+    width: 13px;
+    height: 61px;
+    background: url('images/punct-end-bg3.jpg') repeat-y;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}

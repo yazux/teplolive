@@ -1,0 +1,29 @@
+ul.scrumbs
+{
+	padding:0; margin:0;
+	padding-top:4px;
+	list-style:none;
+    margin-bottom: 15px;;
+}
+
+ul.scrumbs li
+{
+	display:inline;
+    font-size: 11px;
+    color: #888888;
+    font-family: Arial,Helvetica,Garuda,sans-serif;
+}
+
+ul.scrumbs a
+{
+    font-size: 11px;
+    color: #888888;
+    font-family: Arial,Helvetica,Garuda,sans-serif;
+}
+
+ul.scrumbs span
+{
+    font-size: 11px;
+    color: #888888;
+    font-family: Arial,Helvetica,Garuda,sans-serif;
+}

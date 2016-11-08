@@ -1,0 +1,78 @@
+.profile-block-hidden {
+	display: none;
+}
+
+.profile-block-shown {
+	display:block;
+}
+
+.profile-table
+{
+	
+}
+.profile-table textarea {
+    border: 1px solid #888888;
+    width: 240px;
+    resize: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+.profile-table td {
+    padding: 10px;
+}
+.profile-table .text-inp {
+    width: 300px;
+}
+
+.profile-link {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+
+.profile-table td {
+	
+
+}
+#submit-profile {
+    width: 104px;
+    height: 34px;
+    padding: 0;
+    margin: 0;
+    background: url('images/primenit.png') no-repeat;
+    border: none;
+    margin-right: 12px;
+}
+
+div.bx-auth-profile input {
+    vertical-align: middle; 
+    height: 21px;
+    width: 234px;
+    border: 1px solid #888888 !important;
+    border-radius: 2px;
+    margin: 0 14px 17px 0;
+    padding: 3px 8px;
+    font-size: 11px;
+}
+div.bx-auth-profile select {
+    width: 252px;
+    height: 28px;
+    border: 1px solid #888888;
+    border-radius: 2px;
+    float: left;
+    padding: 3px !important;
+}
+div.bx-auth-profile span.bx-auth-secure {background-color:#FFFAE3; border:1px solid #DEDBC8; padding:2px; display:inline-block; vertical-align:middle;}
+div.bx-auth-profile div.bx-auth-secure-icon {background-image:url(images/sec.png); background-repeat:no-repeat; background-position:center; width:19px; height:18px;}
+div.bx-auth-profile div.bx-auth-secure-unlock {background-image:url(images/sec-unlocked.png);}
+td:first-child {
+    width: 201px;
+    height: 33px;
+    margin: 0;
+    padding: 0px 10px 15px 10px;
+}
+.country {
+    padding: 10px !important;
+}

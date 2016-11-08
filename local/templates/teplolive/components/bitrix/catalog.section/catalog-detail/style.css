@@ -1,0 +1,186 @@
+.catalog-section {
+	width: 100%;
+}
+.catalog-head-picture {
+
+}
+.sect-left-part{
+	  float: left;
+  width: 360px;
+}
+.section-picture {
+  width: 360px;
+  height: 315px;
+margin-bottom: 19px;
+  /*margin-bottom: 30px;*/
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #ececec;
+  border-radius: 8px;
+}
+.section-head-main {
+  float: left;
+  width: 535px;
+  padding: 0 29px;
+}
+.section-head-main p{
+  margin: 25px 0;
+}
+.section-name {
+  margin: 0 0 25px 0 !important;
+  font-size: 20px;
+  color: #2b208e;
+  font-family: MyriadPro;
+}
+.section-price {
+  margin: 22px 0;
+}
+.kod, .offers-title, .trade-offers, .buy, .quantity, .section-element-picture, .section-element-properties, .quant {
+	float: left;
+}
+.kod {
+	width: 110px;
+	padding-right: 15px;
+	padding-top: 3px;
+}
+.prop-val, .kod {
+	font-size: 12px;
+	color: #333;
+	font-family: Arial,Helvetica,Garuda,sans-serif;
+}
+.offers-title {
+	width: 500px;
+
+    margin-bottom: 10px;
+    margin-top: -2px;
+	cursor: pointer;
+}
+.offers-title p {
+	display: inline-block;
+	width: 345px;
+}
+.offers-title p  span{
+
+	border-bottom: 1px dashed #2b1f8d;
+	font-size: 16px;
+	color: #2b1f8d;
+	font-family: Arial,Helvetica,Garuda,sans-serif;
+}
+.trade-offers {
+	width: 75px;
+	padding-right: 20px;
+	padding-top: 2px;
+}
+.trade-offers s {
+	font-size: 14px;
+	white-space: nowrap;
+	color: #414141;
+	font-family: Arial,Helvetica,Garuda,sans-serif;
+}
+.catalog-price-discount {
+	font-size: 14px;
+	white-space: nowrap;
+	color: #E31E24;
+	font-family: Arial,Helvetica,Garuda,sans-serif;
+}
+.buy {
+	width: 250px;
+}
+.section-element-picture {
+	width: 125px;
+}
+.section-price span {
+	 color: #e31e24;
+	white-space: nowrap;
+   font-size: 20px;
+   font-family: Arial,Helvetica,Garuda,sans-serif;
+} 
+.section-properties {
+	color: #2b1f8d;
+}
+.element-properties {
+  color: #2b208e;
+  margin-bottom: 10px;
+}
+.section-element {
+	border-bottom: 1px solid #ebebeb;
+	padding: 0 0 15px 0;
+  /*margin-right: 20px;*/
+}
+.section-element-main {
+	padding-top: 25px;
+    padding-left: 20px;
+	border-top: 1px solid #ebebeb;
+}
+.section-element-bottom {
+    padding-left: 20px;;
+}
+.quant {
+	margin-right: 25px;
+}
+.quan-form {
+    position: relative;
+}
+.quan {
+	width: 35px;
+	height: 18px;
+	float: left;
+	border: 1px solid #ececec;
+  text-align: center;
+}
+.plus, .minus {
+	cursor: pointer;
+	width: 14px;
+	height: 18px;
+	float: left; 
+}
+.minus {
+	background: url("images/minus.png") no-repeat 0 60% transparent;
+	margin-right: 8px;
+}
+.plus {
+	background: url("images/plus.png") no-repeat 0 90% transparent;
+	margin-left: 8px;
+}
+.buy_button {
+	background: url("images/buy.png") no-repeat;
+	width: 58px;
+	height: 35px;
+	border: none;
+	position: absolute;
+	top: -8px;
+	cursor: pointer;
+}
+.eeerrr {
+    height: 315px;
+    width: 360px;
+    vertical-align: middle;
+    border: none;
+}
+.sect-file {
+    background: url('images/download2.png') no-repeat  0 30% transparent ;
+    margin-bottom: 10px;
+    padding-left: 18px;
+    padding-bottom: 3px;
+}
+.bot-padding {
+    margin-bottom: 15px;
+}
+span.vnalichii{
+	display: block;
+	width: 90px;
+	color: #3a3086 !important;
+	font-size: 14px;
+	padding-left:24px;
+	background: url("images/vnalichii.jpg") no-repeat left 4px;
+	padding-right: 20px;
+}
+span.podzakaz{
+	display: block;
+	width: 90px;
+	color: #e31f23 !important;
+	font-size: 14px;
+	padding-left:24px;
+	background: url("images/podzakaz.jpg") no-repeat left 4px;
+	padding-right: 20px;
+}

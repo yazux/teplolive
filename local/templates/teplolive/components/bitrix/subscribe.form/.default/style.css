@@ -1,0 +1,21 @@
+.sbscrfrm {
+    width: 400px;
+    float: left;
+    position: relative;
+}
+.sbrcb {
+    display: none;
+}
+.slaveemail {
+    vertical-align: middle;
+    padding: 0 5px;
+    border: 1px solid #ece6fc !important;
+}
+.sbscrgo {
+    border: none;
+    background: url("images/right.png") no-repeat;
+    position: absolute;
+    cursor: pointer;
+    top: 7px;
+    left: 395px;
+}

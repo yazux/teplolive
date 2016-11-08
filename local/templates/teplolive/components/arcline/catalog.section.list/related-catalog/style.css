@@ -1,0 +1,79 @@
+.analog-catalog {
+    margin: 30px 0;
+}
+.title-line {
+    width: 219px;
+    height: 28px;
+    background: url("images/analog-title-bg.png");
+    vertical-align: middle;
+    font-size: 20px;
+    font-family: MyriadPro;
+    color: #2b208e;
+    padding: 4px 0 0 15px;
+    margin-bottom: 15px;
+    margin-right: 18px;
+    float: left;
+}
+.show-all-analog {
+    padding-top: 7px;
+    display: block;
+    font-size: 14px;
+}
+.catalog-item {
+  width: 205px;
+  padding-left: 20px;
+  float: left;
+  border-right: 1px solid #ebebeb;
+  position: relative;
+}
+.catalog-item2 {
+  width: 205px;
+  padding-left: 20px;
+  float: left;
+  position: relative;
+}
+.catalog-item img {
+  margin-bottom: 5px;
+}
+
+.catalog-item-name {
+  display: block;
+  width: 190px; 
+  margin: 15px 0;
+  font-size: 12px;
+  font-family: Arial,Helvetica,Garuda,sans-serif;
+  color: #393185;
+} 
+.rating {
+  margin-top: 5px;
+  width: 90px;
+  height: 15px;
+}
+.otrub {
+  font-size: 12px;
+  color: #414141;
+  font-family: Arial,Helvetica,Garuda,sans-serif;
+}
+.catalog-price {
+  font-size: 14px;
+  color: #414141;
+  font-family: Arial,Helvetica,Garuda,sans-serif;
+}
+.price-push {
+  margin-bottom: 15px;
+}
+.line {
+    width: 944px;
+    border-top: 1px solid #ebebeb;
+    margin: 32px 0;
+}
+.img-wrap {
+  height: 105px;
+  width: 100px;
+  text-align: center;
+}
+.label {
+    position: absolute;
+    top: 0;
+    right: 24px;
+}

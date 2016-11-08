@@ -1,0 +1,43 @@
+span, p, div, body, html {
+  font-size: 12px;
+  font-family: Arial,Helvetica,Garuda,sans-serif;
+  color: #333333;
+ margin: 0;
+ padding: 0;
+}
+div {
+ margin: 0;
+ padding: 0;
+}
+ @font-face {
+    font-family: MyriadPro; 
+    /*src: url(fonts/MyriadPro-Regular.otf);*/ 
+    src: url("fonts_/MyriadPro-Regular.eot");
+    src: url("fonts_/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"),
+         url("fonts_/MyriadPro-Regular.woff") format("woff"),
+         url("fonts_/MyriadPro-Regular.ttf") format("truetype");
+         url("fonts_/MyriadPro-Regular.svg#JournalRegular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+a {
+font-size: 12px;
+color: #3b338a;
+font-family: Arial,Helvetica,Garuda,sans-serif;
+}
+input[type=text] {
+    border: 1px solid #ececec;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+img {
+    border: none;
+}
+h1, h2 {
+    font-size: 20px;
+    font-family: MyriadPro;
+    color: #333;
+    font-weight: normal;
+    margin: 15px 0 20px 0;
+}
