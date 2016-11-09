@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bc48895f-252a-4177-8d18-d92cd18b9293" name="arcline" url="http://cp.arcline.ru">
+        <fileTransfer host="cp.arcline.ru" port="22" rootFolder="/www/oku_teplolive" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
